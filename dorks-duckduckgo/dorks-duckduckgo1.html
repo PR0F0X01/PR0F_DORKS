@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dorks DuckDuckGo</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+  <button onclick="openAllLinksForAllOptions()">
+    <span>Open all</span>
+    <img src="button.png" alt="Icon">
+  </button>
+  <button onclick="updateSearchText()">
+    <span>Add target</span>
+    <img src="button-3.png" alt="Target Icon">
+
+  </button>
+  <input type="text" id="searchText" placeholder="target.com">
+  <label for="timeInterval"></label>
+  <input type="number" id="timeInterval" placeholder="Add delay time">
+
+  <label for="openAllLinksOption"></label>
+  <select id="openAllLinksOption"></select>
+
+  <button onclick="openAllLinksForSelectedOption()">
+    <img src="button-2.png" alt="Open Section Icon">
+    <span>Open section</span>
+  </button>
+
+  <h2 id="changingText">Dorks DuckDuckGo <i class="icon"><img src="Free-Palestine-2.png" alt="Free Palestine"></i></h2>
+  <div id="optionsContainer"></div>
+  <div class="social-icons">
+    <a href="https://www.facebook.com/pr0f0x01" target="_blank" title="Facebook">
+        <img src="facebook-icon.png" alt="Facebook">
+    </a>
+    <a href="https://twitter.com/pr0f0x01" target="_blank" title="Twitter">
+        <img src="twitter-icon.png" alt="Twitter">
+    </a>
+    <a href="https://www.linkedin.com/in/pr0f0x01/" target="_blank" title="LinkedIn">
+        <img src="linkedin-icon.png" alt="LinkedIn">
+    </a>
+    <a href="mailto:hazemhelmybek7@gmail.com" title="Gmail">
+        <img src="gmail-icon.png" alt="Gmail">
+    </a>
+</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
