@@ -1,0 +1,264 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: url(dorks-prof.jpg);
+}
+
+div {
+
+  padding: 120px;
+  border-radius: 10px;
+  margin: 110px;
+  box-shadow: 0 0 14px rgba(240, 217, 14, 0.966);
+  text-align: center;
+  flex: 0 0 calc(90% - 20px);
+
+
+}
+
+.background-image {
+  width: 10%;
+  height: 10vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(10%);
+  font-size: 1.2em;
+}
+
+.content {
+  max-width: 10px;
+  margin: 10px auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 100px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(30, 31, 16, 0.5);
+  font-size: 1.2em;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #f4f5ee;
+  box-shadow: 0 0 50px rgba(122, 255, 2, 1.5);
+  font-size: 1em;
+}
+
+
+
+input[type="text"],
+input[type="number"],
+select {
+
+  padding: 8px;
+  margin: 8px;
+  box-sizing: border-box;
+  font-family: 'Tahoma';
+  box-shadow: 0 0 10px rgba(222, 155, 2, 1.5);
+  border-radius: 8px;
+  background-color: #050505;
+  color: #e2b00a;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+button {
+  color: #e2b00a;
+  text-shadow: 1px 1px 1px #030303;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  font-family: 'Tahoma';
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  position: relative;  
+  
+}
+
+button img {
+  margin-right: 8px;
+}
+
+button span {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  box-sizing: border-box;
+  border: 1px solid #eebd62;
+  border-radius: 6px;
+  padding: 0.2em; 
+  text-shadow: 4px 4px 2px rgb(61, 61, 60); 
+  opacity: 0;
+  box-shadow: 0 0 14px rgba(240, 217, 14, 0.966);
+  transition: opacity 0.3s ease;
+}
+
+button:hover span {
+  opacity: 1;
+}
+
+button:hover img {
+  opacity: 0;
+}
+
+
+
+h3 {
+  color: #e7bd02;
+  font-family: 'Tahoma';
+  font-size: 1em;
+  text-align: center;
+  text-shadow: 3px 3px 2px #030303; 
+}
+
+
+a {
+  color: #131211;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family:'tahoma';
+  text-shadow: 4px 4px 2px #131212; 
+
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 1.2em;
+  font-family:'tahoma';
+}
+
+#optionsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.5em; 
+}
+
+.options {
+  flex: 1 1 0; 
+  cursor: pointer;
+  margin: 0 10px 10px 0;
+  border: 1px solid #e2c106;
+  font-size: 1em; 
+  line-height: 1em; 
+  padding: 0.5em; 
+  box-sizing: border-box;
+  background-color: rgba(12, 12, 12, 0.5); 
+}
+
+
+
+
+.options-content {
+  background-color: #f5eff5; 
+}
+
+.dorkNames {
+  display: none;
+  margin-top: 5px;
+}
+
+.dorkName {
+  cursor: pointer;
+  color: rgba(242, 243, 240, 0.925);
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a img {
+  width: 50px;
+  height: 50px;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+h2 {
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Tahoma';
+  margin-top: 10px;
+  padding: 0.2em;
+  position: relative;
+  display: inline-block;
+  color: transparent;
+  box-shadow: 0 0 14px rgba(236, 240, 14, 0.966);
+  background:
+      linear-gradient(to right, #e60000, #ffffff, #05f505); /* أحمر، أبيض، أخضر */
+  background-size: 300% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: gradient-animation 4s infinite ease-in-out;
+  border-radius: 15px;  
+}
+
+@keyframes gradient-animation {
+  0%, 100% {
+      background-position: 0 0;
+  }
+  50% {
+      background-position: 100% 0;
+  }
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform 0.3s ease-in-out;
+  animation: moveIcon 1s infinite alternate;   
+}
+
+@keyframes moveIcon {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
