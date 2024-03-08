@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorks Prof</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-xw+rsyihH5KX0sYIwSW6XrAqHqmpQW8+DbRUKxEdXqHJT8uTbiNOeNG9vqz8Ljd7oUBHK8Pu9fr1p5fGw+xBBw=="
+        crossorigin="anonymous" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 125vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #e2cc07, #ecd507);
+            background: url(dorks-prof.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    padding: 1px;
+    width: 70%; /* تحديد عرض العناصر بنسبة مئوية */
+    margin: 0 auto; /* للحفاظ على التوسيط */
+}
+
+.gallery img {
+    width: 100%; /* تحديد عرض الصور بنسبة 100% لتأخذ 80% من عرض العنصر الأم */
+    height: auto; /* الحفاظ على تناسق النسبة بين الطول والعرض */
+}
+
+
+
+
+        .image-section {
+            position: relative;
+            overflow: hidden;
+            border: 5px solid #e4a908;
+            border-radius: 10px;
+            margin: 10px;
+            flex: 1.2 calc(20% - 5px);
+            transition: border 0.3s ease;
+
+        }
+
+        .image-section img {
+            width: 105%;
+            height: 105%;
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-section:hover img {
+            transform: scale(1.5);
+        }
+
+        .image-section:hover {
+            border: 5px solid #f70505;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 40px;
+            transition: transform 0.3s ease-in-out;
+
+        }
+
+        .social-icons a img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+
+        .container {
+            text-align: center;
+            position: relative;
+        }
+
+        h2 {
+            font-size: 2em;
+            font-weight: bold;
+            margin-top: 40px;
+            padding: 0.2em;
+            position: relative;
+            display: inline-block;
+            color: transparent;
+            background:
+                linear-gradient(to right, #e60000, #ffffff, #05f505);
+            /* أحمر، أبيض، أخضر */
+            background-size: 300% 100%;
+            background-clip: text;
+            -webkit-background-clip: text;
+            animation: gradient-animation 4s infinite ease-in-out;
+            box-shadow: 0 0 14px rgba(236, 240, 14, 0.966);
+            border-radius: 15px;
+            /* إضافة زوايا مستديرة */
+            z-index: 1;
+            /* ضع النص أعلى من الأيقونة */
+        }
+
+        .icon {
+            display: inline-block;
+            vertical-align: middle;
+            transition: transform 0.3s ease-in-out;
+            animation: moveIcon 1s infinite alternate;
+            /* تم تقليل مدة الحركة إلى 1 ثانية */
+            position: absolute;
+            top: -125%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            /* ضع الأيقونة أعلى من النص */
+        }
+
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes moveIcon {
+            from {
+                transform: translateY(-10px);
+            }
+
+            to {
+                transform: translateY(10px);
+            }
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+
+    <div class="gallery">
+        <div class="image-section" onclick="openNewPage('dorks-duckduckgo/\dorks-duckduckgo.html')">
+            <img src="dorks-duckduckgo.jpg" alt="Image 2">
+        </div>
+        <div class="image-section" onclick="openNewPage('dorks-github-2/\dorks-github-2.html')">
+            <img src="dorks-github-2.jpg" alt="Image 4">
+        </div>
+        <div class="image-section" onclick="openNewPage('dorks-shodan-2/\dorks-shodan-2.html')">
+            <img src="dorks-shodan-2.jpg" alt="Image 8">
+        </div>
+        <div class="image-section" onclick="openNewPage('dorks-bing/\dorks-bing.html')">
+            <img src="dorks-bing.jpg" alt="Image 1">
+        </div>
+        <div class="image-section" onclick="openNewPage('dorks-github/\dorks-github.html')">
+            <img src="dorks-github.jpg" alt="Image 5">
+        </div>
+        <div class="image-section" onclick="openNewPage('dorks-google/\dorks-google.html')">
+            <img src="dorks-google.jpg" alt="Image 3">
+        </div>
+        <div class="image-section" onclick="openNewPage('dorks-shodan/\dorks-shodan.html')">
+            <img src="dorks-shodan.jpg" alt="Image 7">
+        </div>
+        <div class="social-icons">
+            <a><img src="Free-Palestine-3.png" alt="Free-Palestine 2"></a>
+            <a href="https://www.facebook.com/pr0f0x01" target="_blank" title=facebook><img src="facebook-icon.png"
+                    alt="Facebook"></a>
+            <a href="https://twitter.com/pr0f0x01" target="_blank" title="twitter"><img src="twitter-icon.png"
+                    alt="Twitter"></a>
+            <h2><i class="icon"><img src="Free-Palestine-2.png" alt="Free Palestine"></i> Free Palestine</h2> <a
+                href="https://www.linkedin.com/in/pr0f0x01/" target="_blank" title="linkedin"><img
+                    src="linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="mailto:hazemhelmybek7@gmail.com" title="Gmail">
+                <img src="gmail-icon.png" alt="Gmail">
+                
+            </a>
+            <a><img src="Free-Palestine.png" alt="Free-Palestine"></a>
+
+        </div>
+
+
+        <script>
+            function openNewPage(url) {
+                window.open(url, '_blank');
+            }
+        </script>
+</body>
+
+</html>
