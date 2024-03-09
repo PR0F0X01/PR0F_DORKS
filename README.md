@@ -12,7 +12,7 @@ Each section contains ready-made Dorks and is organized in a way that makes it e
 
 In this box, you are asked to enter the site or domain you wish to scan using the available duplexes. A button to confirm adding the Target to all Dorks
 
-### delay time:
+### Delay time:
 
 There is a box that allows you to specify the time interval between each Dorks , giving you control over the speed and organization of the process. Just enter the number of seconds that you want to be the interval between each opening process. Once you write a number, it will be applied without the need to press any button.
 
@@ -22,7 +22,11 @@ There is a list of all available Dorks sections. You can choose which section yo
 
 ### Open section:
 
-Button to open the entire section, allowing you to choose to open all the folders at once, which saves time and makes the searching process easier.
+This is a button to open the entire section , allowing you to choose to open all the folders at once, which saves time and makes the searching process easier.
+
+### Open All :
+
+This is a button to open all sections at once
 
 ### Dorks sections  :
 
@@ -113,3 +117,5 @@ All the Dorks are divided into sections, each section contains a certain number 
 ### Assistant Program:
 
 An assistant program is available to easily add Dorks to the Dorks file in JSON format. You can find it at [PR0F_JSON_FileDate](https://github.com/PROF0X01/PR0F_JSON_FileDate).
+
+## Happy hunting
