@@ -118,6 +118,6 @@ All the Dorks are divided into sections, each section contains a certain number 
 
 ### Assistant Program:
 
-An assistant program is available to easily add Dorks to the Dorks file in JSON format. You can find it at [PR0F_JSON_FileDate](https://github.com/PROF0X01/PR0F_JSON_FileDate).
+An assistant program is available to easily add Dorks to the Dorks file in JSON format. You can find it at [PR0F_JSON_FileDate](https://github.com/PR0F0X01/PR0F_JSON_FileDate).
 
 ## Happy hunting
