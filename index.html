@@ -29,13 +29,13 @@
     align-items: center;
     gap: 1px;
     padding: 1px;
-    width: 70%; /* تحديد عرض العناصر بنسبة مئوية */
-    margin: 0 auto; /* للحفاظ على التوسيط */
+    width: 70%; 
+    margin: 0 auto; 
 }
 
 .gallery img {
-    width: 100%; /* تحديد عرض الصور بنسبة 100% لتأخذ 80% من عرض العنصر الأم */
-    height: auto; /* الحفاظ على تناسق النسبة بين الطول والعرض */
+    width: 100%;
+    height: auto; 
 }
 
 
@@ -105,16 +105,16 @@
             color: transparent;
             background:
                 linear-gradient(to right, #e60000, #ffffff, #05f505);
-            /* أحمر، أبيض، أخضر */
+  
             background-size: 300% 100%;
             background-clip: text;
             -webkit-background-clip: text;
             animation: gradient-animation 4s infinite ease-in-out;
             box-shadow: 0 0 14px rgba(236, 240, 14, 0.966);
             border-radius: 15px;
-            /* إضافة زوايا مستديرة */
+ 
             z-index: 1;
-            /* ضع النص أعلى من الأيقونة */
+       
         }
 
         .icon {
@@ -122,13 +122,13 @@
             vertical-align: middle;
             transition: transform 0.3s ease-in-out;
             animation: moveIcon 1s infinite alternate;
-            /* تم تقليل مدة الحركة إلى 1 ثانية */
+
             position: absolute;
             top: -125%;
             left: 35%;
             transform: translate(-50%, -50%);
             z-index: 1;
-            /* ضع الأيقونة أعلى من النص */
+  
         }
 
         @keyframes gradient-animation {
