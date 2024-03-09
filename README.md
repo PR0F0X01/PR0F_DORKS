@@ -12,7 +12,7 @@ Each section contains ready-made Dorks and is organized in a way that makes it e
 
 ### Add Target:
 
-In this box, you are asked to enter the site or domain you wish to scan using the available duplexes. A button to confirm adding the Target to all Dorks
+In this box, you are asked to enter the site or domain you wish to scan using the available Dorks. A button to confirm adding the Target to all Dorks
 
 ### Delay time:
 
