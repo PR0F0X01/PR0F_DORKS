@@ -1,12 +1,12 @@
-# Welcome to DORKS_PR0F 🌐 
+# Welcome to PR0F_DORKS 🌐 
 
-# ( https://pr0f0x01.github.io/DORKS_PR0F/ )
+# [PR0F_DORKS ](https://pr0f0x01.github.io/PR0F_DORKS/ )
 
-Consider this repository as your guiding compass for DORKS_PR0F, as the focus lies on exploring the depths of the Internet and extracting hidden information through the most famous sites used in DORKS.
+Consider this repository as your guiding compass for PR0F_DORKS, as the focus lies on exploring the depths of the Internet and extracting hidden information through the most famous sites used in DORKS.
 
-## DORKS_PR0F Sections:
+## PR0F_DORKS Sections:
 
-DORKS_PR0F is a site with seven main sections, two for Shodan, two for GitHub, as well as for Bing, DuckDuckGo, and Google.
+PR0F_DORKS is a site with seven main sections, two for Shodan, two for GitHub, as well as for Bing, DuckDuckGo, and Google.
 
 Each section contains ready-made Dorks and is organized in a way that makes it easy to use.
 
