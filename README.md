@@ -1,4 +1,6 @@
-# Welcome to DORKS_PR0F 🌐 ( https://prof0x01.github.io/DORKS_PR0F/ )
+# Welcome to DORKS_PR0F 🌐 
+
+#( https://prof0x01.github.io/DORKS_PR0F/ )
 
 Consider this repository as your guiding compass for DORKS_PR0F, as the focus lies on exploring the depths of the Internet and extracting hidden information through the most famous sites used in DORKS.
 
